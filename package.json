@@ -1,0 +1,23 @@
+{
+	"name": "@ljharb/tsconfig",
+	"version": "0.0.0",
+	"description": "My personal tsconfig(s), so my open source projects can share them.",
+	"main": "tsconfig.json",
+	"exports": {
+		".": "./tsconfig.json",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/tsconfig.git"
+	},
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/tsconfig/issues"
+	},
+	"homepage": "https://github.com/ljharb/tsconfig#readme"
+}

@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.2.1](https://github.com/ljharb/tsconfig/compare/v0.2.0...v0.2.1) - 2024-12-04
+
+### Commits
+
+- [New] enable some more config options: [`47ce6ef`](https://github.com/ljharb/tsconfig/commit/47ce6ef0b100bccc548f9929c1501c3ca7260574)
+- update commented-out boilerplate with a new `tsc --init` [`52721d9`](https://github.com/ljharb/tsconfig/commit/52721d964a997cfcc045105b985432bd9cf953d9)
+- [Tests] replace `aud` with `npm audit` [`b67a552`](https://github.com/ljharb/tsconfig/commit/b67a5525fd16b3266bb6d1d3f0d5960c30ded31f)
+- [Dev Deps] update `auto-changelog` [`debdf11`](https://github.com/ljharb/tsconfig/commit/debdf11686f6c02ff25f91047f405ce3694c0722)
+- [Dev Deps] add missing peer dep [`e54480d`](https://github.com/ljharb/tsconfig/commit/e54480dbb99a539e7829438616748b97e29408be)
+
 ## [v0.2.0](https://github.com/ljharb/tsconfig/compare/v0.1.1...v0.2.0) - 2024-03-08
 
 ### Commits

@@ -5,6 +5,7 @@
 	"main": "tsconfig.json",
 	"exports": {
 		".": "./tsconfig.json",
+		"./node": "./node/tsconfig.json",
 		"./package.json": "./package.json"
 	},
 	"scripts": {

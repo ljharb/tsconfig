@@ -1,0 +1,43 @@
+name: 'Tests: typescript'
+
+on: [pull_request, push]
+
+jobs:
+  tests:
+    strategy:
+      fail-fast: false
+      matrix:
+        typescript:
+          - next
+          - '5.8'
+          - '5.7'
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@v2
+        with:
+          disable-sudo: true
+          egress-policy: audit
+          allowed-endpoints: >
+            github.com:443
+            raw.githubusercontent.com:443
+            nodejs.org:443
+            iojs.org:443
+            registry.npmjs.org:443
+            actions-results-receiver-production.githubapp.com:443
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          show-progress: false
+      
+      - uses: ljharb/actions/node/install@main
+        name: 'nvm install ${{ matrix.node-version }}'
+        with:
+          node-version: node
+          after_install: npm install --no-save typescript@"${{ matrix.typescript }}"
+
+      - run: npm run tests-only
+      - uses: codecov/codecov-action@v3.1.5

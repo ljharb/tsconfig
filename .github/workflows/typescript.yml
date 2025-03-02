@@ -10,7 +10,6 @@ jobs:
         typescript:
           - next
           - '5.8'
-          - '5.7'
     
     runs-on: ubuntu-latest
     

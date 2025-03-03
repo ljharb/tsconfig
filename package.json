@@ -1,6 +1,6 @@
 {
 	"name": "@ljharb/tsconfig",
-	"version": "0.2.3",
+	"version": "0.3.0",
 	"description": "My personal tsconfig(s), so my open source projects can share them.",
 	"main": "tsconfig.json",
 	"exports": {

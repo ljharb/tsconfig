@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v0.3.0](https://github.com/ljharb/tsconfig/compare/v0.2.3...v0.3.0) - 2025-03-02
+
+### Commits
+
+- [Tests] add tests + peer dep [`11c4804`](https://github.com/ljharb/tsconfig/commit/11c4804054c1c9e138a52e10756939096d738a77)
+- [Breaking] add `erasableSyntaxOnly`, require TS 5.8+ [`ac27746`](https://github.com/ljharb/tsconfig/commit/ac2774623decc67e4fc3e91ed9bcb611e38f0942)
+
 ## [v0.2.3](https://github.com/ljharb/tsconfig/compare/v0.2.2...v0.2.3) - 2024-12-27
 
 ### Commits

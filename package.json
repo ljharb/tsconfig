@@ -40,9 +40,6 @@
 		"safe-publish-latest": "^2.0.0",
 		"typescript": "next"
 	},
-	"peerDependencies": {
-		"typescript": ">=5.8 <6"
-	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
 		"template": "keepachangelog",

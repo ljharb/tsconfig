@@ -41,7 +41,7 @@
 		"typescript": "next"
 	},
 	"peerDependencies": {
-		"typescript": "^5.8"
+		"typescript": ">=5.8 <6"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",

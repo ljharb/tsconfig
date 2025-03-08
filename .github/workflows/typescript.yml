@@ -10,9 +10,9 @@ jobs:
         typescript:
           - next
           - '5.8'
-    
+
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@v2
@@ -31,7 +31,7 @@ jobs:
         with:
           persist-credentials: false
           show-progress: false
-      
+
       - uses: ljharb/actions/node/install@main
         name: 'nvm install ${{ matrix.node-version }}'
         with:
